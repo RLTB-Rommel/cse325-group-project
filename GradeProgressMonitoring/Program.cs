@@ -49,14 +49,14 @@ builder.Services.AddSingleton<IEmailSender<ApplicationUser>, IdentityNoOpEmailSe
 
 var app = builder.Build();
 
-// ✅ Ensure DB is migrated before seeding roles/users
+// Ensure DB is migrated before seeding roles/users
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
     await db.Database.MigrateAsync();
 }
 
-// ✅ Seed roles + admin user
+// Seed roles + admin user
 await IdentitySeeder.SeedAsync(app.Services);
 
 // Configure the HTTP request pipeline.
@@ -80,7 +80,7 @@ app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 
 //
-// ✅ Custom Logout Endpoint (avoids /Account/Logout returnUrl issues)
+// Custom Logout Endpoint (avoids /Account/Logout returnUrl issues)
 // Use this endpoint from NavMenu: action="/logout"
 //
 app.MapPost("/logout", async (
