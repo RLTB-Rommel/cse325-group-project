@@ -28,7 +28,6 @@ namespace GradeProgressMonitoring.Models
         public string? Days { get; set; }
         public string? Time { get; set; }
 
-        // ✅ ADD THIS (fixes the error)
         public ICollection<GradingComponent> Components { get; set; }
             = new List<GradingComponent>();
     }
