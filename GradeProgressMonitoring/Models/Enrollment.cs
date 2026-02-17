@@ -18,7 +18,7 @@ namespace GradeProgressMonitoring.Models
         public string? StudentUserId { get; set; }
         public ApplicationUser? StudentUser { get; set; }
 
-        // You encode these manually
+        // Encode these manually
         [Required, MaxLength(30)]
         public string StudentNo { get; set; } = "";
 
