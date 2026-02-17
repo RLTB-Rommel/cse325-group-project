@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # .NET build outputs
 bin/
 obj/
@@ -20,4 +21,28 @@ secrets.json
 *.db-wal
 
 # Logs
+=======
+# .NET build outputs
+bin/
+obj/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# User-specific / secrets
+appsettings.Development.json
+secrets.json
+
+# SQLite local DB (if you use it)
+*.db
+*.db-shm
+*.db-wal
+
+# Logs
+>>>>>>> 0a7d544894c5c8420b8251a6cb4d05e32210b24a
 *.log
