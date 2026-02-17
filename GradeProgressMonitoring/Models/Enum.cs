@@ -6,7 +6,7 @@ namespace GradeProgressMonitoring.Models
         Laboratory = 1
     }
 
-    // IMPORTANT: keep this name as ComponentType because your models reference it
+    // IMPORTANT: keep this name as ComponentType because models reference it
     public enum ComponentType
     {
         Attendance = 0,
@@ -31,7 +31,7 @@ namespace GradeProgressMonitoring.Models
         LabActivity = 1
     }
 
-    // Updated to match your rule: 20% per day late, plagiarism = 0
+    // Updated to match rule: 20% per day late, plagiarism = 0
     public enum SubmissionStatus
     {
         OnTime = 0,
