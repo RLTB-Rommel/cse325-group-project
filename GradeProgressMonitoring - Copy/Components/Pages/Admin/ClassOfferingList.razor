@@ -1,0 +1,211 @@
+﻿@page "/admin/classoffering"
+@rendermode InteractiveServer
+
+@using GradeProgressMonitoring.Models
+@using GradeProgressMonitoring.Data
+@using Microsoft.EntityFrameworkCore
+@inject ApplicationDbContext Db
+@inject NavigationManager Nav
+
+<h3>Subject Dashboards</h3>
+
+<EditForm Model="filter" FormName="filterForm" OnValidSubmit="LoadAsync">
+    <DataAnnotationsValidator />
+
+    <div style="display:flex; gap:12px; align-items:flex-end; flex-wrap:wrap; margin: 10px 0 16px;">
+        <div>
+            <label><b>Term</b></label>
+            <InputText class="form-control" style="min-width:220px;" @bind-Value="filter.Term" />
+        </div>
+
+        <div>
+            <label><b>School Year</b></label>
+            <InputText class="form-control" style="min-width:220px;" @bind-Value="filter.SchoolYear" />
+        </div>
+
+        <button class="btn btn-outline-secondary" type="submit" disabled="@loading">
+            @(loading ? "Loading..." : "Refresh")
+        </button>
+    </div>
+</EditForm>
+
+@if (!string.IsNullOrWhiteSpace(message))
+{
+    <div class="@messageCss" style="margin-bottom:10px;">@message</div>
+}
+
+@if (loading)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th style="width:90px;">Units</th>
+                <th>Offering Status</th>
+                <th style="width:140px;">Actions</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var s in subjects)
+            {
+                var offering = offerings.FirstOrDefault(o => o.SubjectCode == s.SubjectCode);
+
+                <tr>
+                    <td>
+                        <div style="font-weight:700;">@s.SubjectCode</div>
+                        <div>@s.SubjectTitle</div>
+                    </td>
+
+                    <td>@s.Units</td>
+
+                    <td>
+                        @if (offering is null)
+                        {
+                            <span>Not yet populated for <b>@filter.Term</b> / <b>@filter.SchoolYear</b></span>
+                        }
+                        else
+                        {
+                            <span>Populated — Offering ID: <b>@offering.ClassOfferingId</b> • @offering.CourseYearSection</span>
+                        }
+                    </td>
+
+                    <td>
+                        @if (offering is null)
+                        {
+                            <!-- ✅ IMPORTANT: type="button" so it won't submit the filter form -->
+                            <button type="button" class="btn btn-primary"
+                                    @onclick="() => PopulateAsync(s)">
+                                Populate
+                            </button>
+                        }
+                        else
+                        {
+                            <!-- ✅ IMPORTANT: type="button" + NavigateTo -->
+                            <button type="button" class="btn btn-success"
+                                    @onclick="() => Manage(offering.ClassOfferingId)">
+                                Manage
+                            </button>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private bool loading = true;
+    private string? message;
+    private string messageCss = "text-muted";
+
+    private List<SubjectCatalog> subjects = new();
+    private List<ClassOffering> offerings = new();
+
+    private FilterModel filter = new()
+    {
+        Term = "2nd Semester",
+        SchoolYear = "2025-2026"
+    };
+
+    protected override async Task OnInitializedAsync()
+        => await LoadAsync();
+
+    private async Task LoadAsync()
+    {
+        loading = true;
+        message = null;
+
+        try
+        {
+            var term = (filter.Term ?? "").Trim();
+            var sy = (filter.SchoolYear ?? "").Trim();
+
+            subjects = await Db.SubjectCatalogs
+                .AsNoTracking()
+                .Where(s => s.IsActive)
+                .OrderBy(s => s.SubjectCode)
+                .ToListAsync();
+
+            offerings = await Db.ClassOfferings
+                .AsNoTracking()
+                .Where(c => c.Term == term && c.SchoolYear == sy)
+                .ToListAsync();
+        }
+        catch (Exception ex)
+        {
+            message = ex.Message;
+            messageCss = "text-danger";
+        }
+        finally
+        {
+            loading = false;
+        }
+    }
+
+    private async Task PopulateAsync(SubjectCatalog subject)
+    {
+        try
+        {
+            loading = true;
+            message = null;
+
+            var term = (filter.Term ?? "").Trim();
+            var sy = (filter.SchoolYear ?? "").Trim();
+
+            // If already exists, just manage it
+            var existing = await Db.ClassOfferings.FirstOrDefaultAsync(c =>
+                c.SubjectCode == subject.SubjectCode &&
+                c.Term == term &&
+                c.SchoolYear == sy);
+
+            if (existing is not null)
+            {
+                Manage(existing.ClassOfferingId);
+                return;
+            }
+
+            // Create basic offering
+            var entity = new ClassOffering
+            {
+                SubjectCode = subject.SubjectCode,
+                SubjectTitle = subject.SubjectTitle,
+                Units = subject.Units,
+                Term = term,
+                SchoolYear = sy,
+                CourseYearSection = "TBD",
+                Days = "",
+                Time = "",
+                ClassType = ClassType.Lecture // you can adjust later
+            };
+
+            Db.ClassOfferings.Add(entity);
+            await Db.SaveChangesAsync();
+
+            Manage(entity.ClassOfferingId);
+        }
+        catch (Exception ex)
+        {
+            message = ex.Message;
+            messageCss = "text-danger";
+        }
+        finally
+        {
+            loading = false;
+            await LoadAsync();
+        }
+    }
+
+    private void Manage(int classOfferingId)
+        => Nav.NavigateTo($"/admin/classoffering/{classOfferingId}/roster");
+
+    private sealed class FilterModel
+    {
+        public string? Term { get; set; }
+        public string? SchoolYear { get; set; }
+    }
+}

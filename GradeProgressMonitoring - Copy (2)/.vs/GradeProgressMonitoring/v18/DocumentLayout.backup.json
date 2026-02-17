@@ -1,0 +1,663 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\components\\pages\\scorer\\scoreofferings.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:components\\pages\\scorer\\scoreofferings.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\components\\pages\\admin\\classofferinglist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:components\\pages\\admin\\classofferinglist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\components\\pages\\scorer\\classofferingencode.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:components\\pages\\scorer\\classofferingencode.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\components\\pages\\student\\claimenrollment.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:components\\pages\\student\\claimenrollment.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\components\\pages\\student\\mysubjects.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:components\\pages\\student\\mysubjects.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\components\\pages\\admin\\classofferingroster.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:components\\pages\\admin\\classofferingroster.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\components\\pages\\admin\\classofferingconfigure.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:components\\pages\\admin\\classofferingconfigure.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\components\\pages\\admin\\classofferingitems.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:components\\pages\\admin\\classofferingitems.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\components\\pages\\auth.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:components\\pages\\auth.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\components\\account\\pages\\manage\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:components\\account\\pages\\manage\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\migrations\\20260216222149_addcheckerlockapprovefieldstocomponentitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:migrations\\20260216222149_addcheckerlockapprovefieldstocomponentitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\models\\componentitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:models\\componentitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\components\\pages\\checker\\reviewscores.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:components\\pages\\checker\\reviewscores.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\components\\account\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:components\\account\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\components\\pages\\student\\classofferingmygrades.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:components\\pages\\student\\classofferingmygrades.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\components\\pages\\admin\\subjectcatalogpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:components\\pages\\admin\\subjectcatalogpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\services\\gradingtemplateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:services\\gradingtemplateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\components\\pages\\admin\\classofferingcreate.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:components\\pages\\admin\\classofferingcreate.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\services\\gradeequivalency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:services\\gradeequivalency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\components\\layout\\reconnectmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:components\\layout\\reconnectmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\models\\classoffering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:models\\classoffering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\models\\academicmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:models\\academicmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\models\\subjectcatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:models\\subjectcatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\models\\scoringmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:models\\scoringmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\models\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:models\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\components\\account\\identityrevalidatingauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:components\\account\\identityrevalidatingauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|c:\\users\\conni\\documents\\cse325-group-project\\gradeprogressmonitoring\\components\\account\\pages\\externallogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2393406C-FEB1-5384-BFA2-4603484842CA}|GradeProgressMonitoring.csproj|solutionrelative:components\\account\\pages\\externallogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScoreOfferings.razor",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Scorer\\ScoreOfferings.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Scorer\\ScoreOfferings.razor",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Scorer\\ScoreOfferings.razor",
+              "RelativeToolTip": "Components\\Pages\\Scorer\\ScoreOfferings.razor",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAkwJsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-17T09:30:53.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MySubjects.razor",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Student\\MySubjects.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Student\\MySubjects.razor",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Student\\MySubjects.razor",
+              "RelativeToolTip": "Components\\Pages\\Student\\MySubjects.razor",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAkwHwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-16T09:05:31.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClassOfferingEncode.razor",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Scorer\\ClassOfferingEncode.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Scorer\\ClassOfferingEncode.razor",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Scorer\\ClassOfferingEncode.razor",
+              "RelativeToolTip": "Components\\Pages\\Scorer\\ClassOfferingEncode.razor",
+              "ViewState": "AgIAAP4BAAAAAAAAAAAkwBMCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-11T14:49:59.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClassOfferingList.razor",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Admin\\ClassOfferingList.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Admin\\ClassOfferingList.razor",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Admin\\ClassOfferingList.razor",
+              "RelativeToolTip": "Components\\Pages\\Admin\\ClassOfferingList.razor",
+              "ViewState": "AgIAAGQBAAAAAAAAAAAkwHkBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-17T08:45:44.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-10T08:08:49.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAkwLMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-10T08:00:41.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-16T16:47:46.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClassOfferingRoster.razor",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Admin\\ClassOfferingRoster.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Admin\\ClassOfferingRoster.razor",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Admin\\ClassOfferingRoster.razor",
+              "RelativeToolTip": "Components\\Pages\\Admin\\ClassOfferingRoster.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T11:18:00.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "wwwroot\\app.css",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\wwwroot\\app.css",
+              "RelativeToolTip": "wwwroot\\app.css",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAIwLYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-16T23:02:45.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClassOfferingItems.razor",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Admin\\ClassOfferingItems.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Admin\\ClassOfferingItems.razor",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Admin\\ClassOfferingItems.razor",
+              "RelativeToolTip": "Components\\Pages\\Admin\\ClassOfferingItems.razor",
+              "ViewState": "AgIAAAMBAAAAAAAAAAAQwA8BAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-10T23:18:20.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClaimEnrollment.razor",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Student\\ClaimEnrollment.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Student\\ClaimEnrollment.razor",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Student\\ClaimEnrollment.razor",
+              "RelativeToolTip": "Components\\Pages\\Student\\ClaimEnrollment.razor",
+              "ViewState": "AgIAALkAAAAAAAAAAAAkwM4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-15T19:02:10.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClassOfferingConfigure.razor",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Admin\\ClassOfferingConfigure.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Admin\\ClassOfferingConfigure.razor",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Admin\\ClassOfferingConfigure.razor",
+              "RelativeToolTip": "Components\\Pages\\Admin\\ClassOfferingConfigure.razor",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAkwPUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T11:24:03.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Account\\Pages\\Manage\\Index.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Pages\\Manage\\Index.razor",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Account\\Pages\\Manage\\Index.razor",
+              "RelativeToolTip": "Components\\Account\\Pages\\Manage\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-16T22:53:51.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T20:05:27.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Auth.razor",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Auth.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Auth.razor",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Auth.razor",
+              "RelativeToolTip": "Components\\Pages\\Auth.razor",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-16T22:57:40.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-16T22:58:00.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor.css",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor.css",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAIwJwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-17T00:13:41.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor.css",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor.css",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAIwIAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-17T00:28:28.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20260216222149_AddCheckerLockApproveFieldsToComponentItem.cs",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Migrations\\20260216222149_AddCheckerLockApproveFieldsToComponentItem.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260216222149_AddCheckerLockApproveFieldsToComponentItem.cs",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Migrations\\20260216222149_AddCheckerLockApproveFieldsToComponentItem.cs",
+              "RelativeToolTip": "Migrations\\20260216222149_AddCheckerLockApproveFieldsToComponentItem.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T22:21:50.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ComponentItem.cs",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Models\\ComponentItem.cs",
+              "RelativeDocumentMoniker": "Models\\ComponentItem.cs",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Models\\ComponentItem.cs",
+              "RelativeToolTip": "Models\\ComponentItem.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T22:08:44.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ReviewScores.razor",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Checker\\ReviewScores.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Checker\\ReviewScores.razor",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Checker\\ReviewScores.razor",
+              "RelativeToolTip": "Components\\Pages\\Checker\\ReviewScores.razor",
+              "ViewState": "AgIAAG0BAAAAAAAAAAAQwL0BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-16T22:04:04.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAQwF4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T11:06:04.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ClassOfferingMyGrades.razor",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Student\\ClassOfferingMyGrades.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Student\\ClassOfferingMyGrades.razor",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Student\\ClassOfferingMyGrades.razor",
+              "RelativeToolTip": "Components\\Pages\\Student\\ClassOfferingMyGrades.razor",
+              "ViewState": "AgIAAD0BAAAAAAAAAAAkwFIBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-15T18:29:28.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Register.razor",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Account\\Pages\\Register.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Pages\\Register.razor",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Account\\Pages\\Register.razor",
+              "RelativeToolTip": "Components\\Account\\Pages\\Register.razor",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAkwPQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-16T21:16:18.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SubjectCatalogPage.razor",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Admin\\SubjectCatalogPage.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Admin\\SubjectCatalogPage.razor",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Admin\\SubjectCatalogPage.razor",
+              "RelativeToolTip": "Components\\Pages\\Admin\\SubjectCatalogPage.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T12:06:08.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GradingTemplateService.cs",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Services\\GradingTemplateService.cs",
+              "RelativeDocumentMoniker": "Services\\GradingTemplateService.cs",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Services\\GradingTemplateService.cs",
+              "RelativeToolTip": "Services\\GradingTemplateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T16:02:14.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ClassOfferingCreate.razor",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Admin\\ClassOfferingCreate.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Admin\\ClassOfferingCreate.razor",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Pages\\Admin\\ClassOfferingCreate.razor",
+              "RelativeToolTip": "Components\\Pages\\Admin\\ClassOfferingCreate.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T11:10:17.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Routes.razor",
+              "RelativeToolTip": "Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-12T10:49:01.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GradeEquivalency.cs",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Services\\GradeEquivalency.cs",
+              "RelativeDocumentMoniker": "Services\\GradeEquivalency.cs",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Services\\GradeEquivalency.cs",
+              "RelativeToolTip": "Services\\GradeEquivalency.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T09:59:03.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ClassOffering.cs",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Models\\ClassOffering.cs",
+              "RelativeDocumentMoniker": "Models\\ClassOffering.cs",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Models\\ClassOffering.cs",
+              "RelativeToolTip": "Models\\ClassOffering.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T06:03:43.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "Data\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T07:05:18.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ReconnectModal.razor",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Layout\\ReconnectModal.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\ReconnectModal.razor",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Layout\\ReconnectModal.razor",
+              "RelativeToolTip": "Components\\Layout\\ReconnectModal.razor",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-10T08:09:35.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "Models\\Enrollment.cs",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Models\\Enrollment.cs",
+              "RelativeToolTip": "Models\\Enrollment.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T20:20:09.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AcademicModels.cs",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Models\\AcademicModels.cs",
+              "RelativeDocumentMoniker": "Models\\AcademicModels.cs",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Models\\AcademicModels.cs",
+              "RelativeToolTip": "Models\\AcademicModels.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T22:01:07.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SubjectCatalog.cs",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Models\\SubjectCatalog.cs",
+              "RelativeDocumentMoniker": "Models\\SubjectCatalog.cs",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Models\\SubjectCatalog.cs",
+              "RelativeToolTip": "Models\\SubjectCatalog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T11:53:51.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ScoringModels.cs",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Models\\ScoringModels.cs",
+              "RelativeDocumentMoniker": "Models\\ScoringModels.cs",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Models\\ScoringModels.cs",
+              "RelativeToolTip": "Models\\ScoringModels.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAmwBgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T10:02:47.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Enum.cs",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Models\\Enum.cs",
+              "RelativeDocumentMoniker": "Models\\Enum.cs",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Models\\Enum.cs",
+              "RelativeToolTip": "Models\\Enum.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T10:00:41.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-08T09:58:46.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IdentityRevalidatingAuthenticationStateProvider.cs",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Account\\IdentityRevalidatingAuthenticationStateProvider.cs",
+              "RelativeDocumentMoniker": "Components\\Account\\IdentityRevalidatingAuthenticationStateProvider.cs",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Account\\IdentityRevalidatingAuthenticationStateProvider.cs",
+              "RelativeToolTip": "Components\\Account\\IdentityRevalidatingAuthenticationStateProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T20:11:44.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ExternalLogin.razor",
+              "DocumentMoniker": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Account\\Pages\\ExternalLogin.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Pages\\ExternalLogin.razor",
+              "ToolTip": "C:\\Users\\conni\\Documents\\cse325-group-project\\GradeProgressMonitoring\\Components\\Account\\Pages\\ExternalLogin.razor",
+              "RelativeToolTip": "Components\\Account\\Pages\\ExternalLogin.razor",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAJkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-06T20:11:27.967Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

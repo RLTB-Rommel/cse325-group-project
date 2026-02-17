@@ -1,0 +1,292 @@
+@page "/admin/classoffering/{Id:int}/roster"
+@rendermode InteractiveServer
+
+@using GradeProgressMonitoring.Models
+@using GradeProgressMonitoring.Data
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.EntityFrameworkCore
+@using Microsoft.AspNetCore.Components.Forms
+
+@inject ApplicationDbContext Db
+@inject UserManager<ApplicationUser> UserManager
+@inject RoleManager<IdentityRole> RoleManager
+@inject NavigationManager Nav
+
+<h3>Roster / Enrollment</h3>
+
+@if (offering is null)
+{
+    <p class="text-danger">Class offering not found.</p>
+}
+else
+{
+    <p>
+        <strong>@offering.SubjectCode</strong> — @offering.SubjectTitle <br />
+        @offering.CourseYearSection • @offering.Term / @offering.SchoolYear • <b>@offering.ClassType</b>
+    </p>
+
+    <button class="btn btn-outline-secondary mb-3" type="button" @onclick="Back">Back to List</button>
+
+    <hr />
+
+    <!-- Generate Links -->
+    <div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap; margin-bottom:12px;">
+        <button type="button"
+                class="btn btn-outline-primary"
+                @onclick="GenerateAndLinkAccountsAsync"
+                disabled="@IsBusy">
+            @(linking ? "Generating..." : "Generate Links & Student Accounts")
+        </button>
+
+        <small class="text-muted">
+            Creates login accounts and links them to roster entries.
+        </small>
+    </div>
+
+    <!-- Add Student -->
+    <EditForm Model="form" OnValidSubmit="AddStudentAsync">
+        <DataAnnotationsValidator />
+
+        <div class="row">
+            <div class="col-md-4">
+                <label>Student No</label>
+                <InputText class="form-control" @bind-Value="form.StudentNo" />
+            </div>
+
+            <div class="col-md-4">
+                <label>Student Name</label>
+                <InputText class="form-control" @bind-Value="form.StudentName" />
+            </div>
+
+            <div class="col-md-4">
+                <label>Section (optional)</label>
+                <InputText class="form-control" @bind-Value="form.Section" />
+            </div>
+        </div>
+
+        <div style="margin-top:10px; display:flex; gap:10px; align-items:center;">
+            <button class="btn btn-primary" type="submit" disabled="@IsBusy">
+                @(saving ? "Adding..." : "Add to Roster")
+            </button>
+
+            @if (!string.IsNullOrWhiteSpace(message))
+            {
+                <span class="@messageCss">@message</span>
+            }
+        </div>
+    </EditForm>
+
+    <hr />
+
+    <h5>Enrolled Students (@enrollments.Count)</h5>
+
+    <table class="table table-sm">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Student No</th>
+                <th>Name</th>
+                <th>Section</th>
+                <th>Linked</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var e in enrollments)
+            {
+                <tr>
+                    <td>@e.EnrollmentId</td>
+                    <td>@e.StudentNo</td>
+                    <td>@e.StudentName</td>
+                    <td>@e.Section</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(e.StudentUserId))
+                        {
+                            <span class="text-success">Linked</span>
+                        }
+                        else
+                        {
+                            <span class="text-muted">Not linked</span>
+                        }
+                    </td>
+                    <td>
+                        <button type="button"
+                                class="btn btn-sm btn-danger"
+                                @onclick="() => RemoveAsync(e.EnrollmentId)"
+                                disabled="@IsBusy">
+                            Remove
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    [Parameter] public int Id { get; set; }
+
+    ClassOffering? offering;
+    List<Enrollment> enrollments = new();
+
+    bool saving;
+    bool linking;
+
+    bool IsBusy => saving || linking;
+
+    string? message;
+    string messageCss = "text-success";
+
+    EnrollmentForm form = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        offering = await Db.ClassOfferings.FindAsync(Id);
+        await LoadEnrollments();
+    }
+
+    async Task LoadEnrollments()
+    {
+        enrollments = await Db.Enrollments
+            .Where(e => e.ClassOfferingId == Id)
+            .OrderBy(e => e.StudentNo)
+            .ThenBy(e => e.StudentName)
+            .ToListAsync();
+    }
+
+    async Task AddStudentAsync()
+    {
+        saving = true;
+        message = null;
+
+        try
+        {
+            var studentNo = (form.StudentNo ?? "").Trim();
+            var studentName = (form.StudentName ?? "").Trim();
+
+            if (string.IsNullOrWhiteSpace(studentNo) || string.IsNullOrWhiteSpace(studentName))
+            {
+                message = "Student No and Student Name are required.";
+                messageCss = "text-danger";
+                return;
+            }
+
+            var exists = await Db.Enrollments.AnyAsync(e =>
+                e.ClassOfferingId == Id && e.StudentNo == studentNo);
+
+            if (exists)
+            {
+                message = "Student already exists in this class.";
+                messageCss = "text-danger";
+                return;
+            }
+
+            Db.Enrollments.Add(new Enrollment
+            {
+                ClassOfferingId = Id,
+                StudentNo = studentNo,
+                StudentName = studentName,
+                Section = string.IsNullOrWhiteSpace(form.Section) ? null : form.Section.Trim()
+            });
+
+            await Db.SaveChangesAsync();
+            await LoadEnrollments();
+
+            form = new();
+            message = "Student added.";
+            messageCss = "text-success";
+        }
+        finally
+        {
+            saving = false;
+        }
+    }
+
+    async Task RemoveAsync(int enrollmentId)
+    {
+        saving = true;
+
+        try
+        {
+            var e = await Db.Enrollments.FindAsync(enrollmentId);
+            if (e != null)
+            {
+                Db.Enrollments.Remove(e);
+                await Db.SaveChangesAsync();
+                await LoadEnrollments();
+            }
+        }
+        finally
+        {
+            saving = false;
+        }
+    }
+
+    async Task GenerateAndLinkAccountsAsync()
+    {
+        linking = true;
+        message = null;
+
+        try
+        {
+            // Ensure role exists (optional safety)
+            var role = await RoleManager.FindByNameAsync("Student");
+            if (role == null)
+            {
+                message = "Role 'Student' does not exist yet.";
+                messageCss = "text-danger";
+                return;
+            }
+
+            foreach (var e in enrollments.Where(x => string.IsNullOrEmpty(x.StudentUserId)))
+            {
+                var username = (e.StudentNo ?? "").Trim();
+                if (string.IsNullOrWhiteSpace(username))
+                    continue;
+
+                var user = await UserManager.FindByNameAsync(username);
+
+                if (user == null)
+                {
+                    user = new ApplicationUser
+                    {
+                        UserName = username,
+                        Email = $"{username}@student.local",
+                        EmailConfirmed = true
+                    };
+
+                    var create = await UserManager.CreateAsync(user, "Temp@1234");
+                    if (!create.Succeeded)
+                        continue;
+
+                    // IMPORTANT: AddToRole uses Identity tables correctly
+                    var addRole = await UserManager.AddToRoleAsync(user, "Student");
+                    if (!addRole.Succeeded)
+                        continue;
+                }
+
+                // Link enrollment -> user
+                e.StudentUserId = user.Id;
+            }
+
+            await Db.SaveChangesAsync();
+            await LoadEnrollments();
+
+            message = "Student accounts generated and linked.";
+            messageCss = "text-success";
+        }
+        finally
+        {
+            linking = false;
+        }
+    }
+
+    void Back() => Nav.NavigateTo("/admin/classoffering");
+
+    class EnrollmentForm
+    {
+        public string StudentNo { get; set; } = "";
+        public string StudentName { get; set; } = "";
+        public string? Section { get; set; }
+    }
+}
