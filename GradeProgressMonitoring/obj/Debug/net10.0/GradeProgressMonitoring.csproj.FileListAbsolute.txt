@@ -1,4 +1,3 @@
-C:\Users\conni\Documents\cse325-group-project\GradeProgressMonitoring\bin\Debug\net10.0\appsettings.Development.json
 C:\Users\conni\Documents\cse325-group-project\GradeProgressMonitoring\bin\Debug\net10.0\appsettings.json
 C:\Users\conni\Documents\cse325-group-project\GradeProgressMonitoring\bin\Debug\net10.0\GradeProgressMonitoring.staticwebassets.runtime.json
 C:\Users\conni\Documents\cse325-group-project\GradeProgressMonitoring\bin\Debug\net10.0\GradeProgressMonitoring.staticwebassets.endpoints.json
@@ -306,17 +305,17 @@ C:\Users\conni\Documents\cse325-group-project\GradeProgressMonitoring\obj\Debug\
 C:\Users\conni\Documents\cse325-group-project\GradeProgressMonitoring\obj\Debug\net10.0\compressed\qs4m4gt4zf-{0}-abdmv1u4y3-abdmv1u4y3.gz
 C:\Users\conni\Documents\cse325-group-project\GradeProgressMonitoring\obj\Debug\net10.0\compressed\4ys3wkiws7-{0}-ax6tuj8tun-ax6tuj8tun.gz
 C:\Users\conni\Documents\cse325-group-project\GradeProgressMonitoring\obj\Debug\net10.0\compressed\w1rten9f35-{0}-zr4b1gdhaw-zr4b1gdhaw.gz
-C:\Users\conni\Documents\cse325-group-project\GradeProgressMonitoring\obj\Debug\net10.0\compressed\0ptz8rej0q-{0}-r17rsxkohd-r17rsxkohd.gz
-C:\Users\conni\Documents\cse325-group-project\GradeProgressMonitoring\obj\Debug\net10.0\compressed\jil0wuqdje-{0}-r17rsxkohd-r17rsxkohd.gz
 C:\Users\conni\Documents\cse325-group-project\GradeProgressMonitoring\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\conni\Documents\cse325-group-project\GradeProgressMonitoring\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\conni\Documents\cse325-group-project\GradeProgressMonitoring\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\conni\Documents\cse325-group-project\GradeProgressMonitoring\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\conni\Documents\cse325-group-project\GradeProgressMonitoring\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\conni\Documents\cse325-group-project\GradeProgressMonitoring\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\conni\Documents\cse325-group-project\GradeProgressMonitoring\obj\Debug\net10.0\GradePro.B3BD7031.Up2Date
 C:\Users\conni\Documents\cse325-group-project\GradeProgressMonitoring\obj\Debug\net10.0\GradeProgressMonitoring.dll
 C:\Users\conni\Documents\cse325-group-project\GradeProgressMonitoring\obj\Debug\net10.0\refint\GradeProgressMonitoring.dll
 C:\Users\conni\Documents\cse325-group-project\GradeProgressMonitoring\obj\Debug\net10.0\GradeProgressMonitoring.pdb
 C:\Users\conni\Documents\cse325-group-project\GradeProgressMonitoring\obj\Debug\net10.0\GradeProgressMonitoring.genruntimeconfig.cache
 C:\Users\conni\Documents\cse325-group-project\GradeProgressMonitoring\obj\Debug\net10.0\ref\GradeProgressMonitoring.dll
+C:\Users\conni\Documents\cse325-group-project\GradeProgressMonitoring\obj\Debug\net10.0\GradeProgressMonitoring.sourcelink.json
+C:\Users\conni\Documents\cse325-group-project\GradeProgressMonitoring\obj\Debug\net10.0\compressed\0ptz8rej0q-{0}-b6kwpnsp0z-b6kwpnsp0z.gz
+C:\Users\conni\Documents\cse325-group-project\GradeProgressMonitoring\obj\Debug\net10.0\compressed\jil0wuqdje-{0}-b6kwpnsp0z-b6kwpnsp0z.gz
