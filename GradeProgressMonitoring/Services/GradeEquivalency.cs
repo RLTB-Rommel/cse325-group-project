@@ -2,7 +2,7 @@ namespace GradeProgressMonitoring.Services;
 
 public static class GradeEquivalency
 {
-    // Uses your exact rule: 75–<78 => 3.00, 78–<81 => 2.75, ... 99+ => 1.00, below 75 => 5.00
+    // Uses exact rule: 75–<78 => 3.00, 78–<81 => 2.75, ... 99+ => 1.00, below 75 => 5.00
     public static decimal ToEquivalent(decimal percent)
     {
         if (percent >= 99m) return 1.00m;

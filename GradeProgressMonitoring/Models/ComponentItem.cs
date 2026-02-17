@@ -20,7 +20,7 @@ namespace GradeProgressMonitoring.Models
         // For progressive encoding (admin/checker controls; scorer limited)
         public bool IsOpenForEncoding { get; set; } = true;
 
-        // ✅ Checker workflow / finalization controls
+        // Checker workflow / finalization controls
         public bool IsLocked { get; set; } = false;          // locked prevents scorer edits
         public bool IsApproved { get; set; } = false;        // approved means finalized
         public DateTime? ApprovedAt { get; set; }            // when approved
